@@ -1,0 +1,28 @@
+{
+    "response": [
+        {
+            "maintainer": "mirukurusan",
+            "oem": "LGE",
+            "device": "LG G7 ThinQ",
+            "filename": "crDroidAndroid-16.0-20251124-judyln-v12.3.zip",
+            "download": "https://github.com/mirukurusan/rom_build/releases/download/crDroidAndroid-16.0-20251124-judyln-v12.3.zip/crDroidAndroid-16.0-20251124-judyln-v12.3.zip",
+            "timestamp": 1763996139,
+            "md5": "b2574abea54a4e80abaecfde39c8463b",
+            "sha256": "61604bab8de50766792ececce3d477133c41570f6ce7cf507f9d416ed18dc3ee",
+            "size": 1182224833,
+            "version": "12.3",
+            "buildtype": "weekly",
+            "forum": "",
+            "gapps": "https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-16/28-Nov-2025/NikGapps-crdroid-official-arm64-16-20251128-signed.zip/download",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "",
+            "paypal": "",
+            "telegram": "",
+            "dt": "",
+            "common-dt": "",
+            "kernel": ""
+        }
+    ]
+}

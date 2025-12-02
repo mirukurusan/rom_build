@@ -1,1 +1,2 @@
-
+Please go to the release page to view the changelog.
+https://github.com/mirukurusan/rom_build/releases

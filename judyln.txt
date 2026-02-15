@@ -2,6 +2,9 @@ Please go to the release page to view the changelog.
 https://github.com/mirukurusan/rom_build/releases
 
 
+20260215-12.7
+- Revert `Use EROFS for vendor partition`
+
 20260208-12.7:
 - Update to Android 16 qpr2
 

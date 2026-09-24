@@ -1,2 +1,69 @@
-Please go to the release page to view the changelog.
-https://github.com/mirukurusan/rom_build/releases
+20260924-12.12
+- Fix no audio from the earpiece during phone calls (judyln)
+- Fix FM radio not playing until the mute button is toggled (judyln)
+- Fix FM radio white noise and poor reception (judyln)
+- Fix OTA support (judyln)
+- Add OTA support (judyp, judypn)
+
+20260818-12.11
+- Update KernelSU-Next to v3.2.0
+- Fix DAC settings not applied after reboot
+- Revamped QuadDAC panel using Jetpack Compose
+
+20260417-12.9
+- Update to crDroid 12.9
+
+20260317-12.8
+- Update to crDroid 12.8
+
+20260228-12.7
+- Update KernelSU-Next to v3.1.0
+
+20260227-12.7
+- Fix crashes in SystemUI, Google Photos, WhatsApp, etc
+
+20260215-12.7
+- Revert `Use EROFS for vendor partition`
+
+20260208-12.7:
+- Update to Android 16 qpr2
+
+20260113-12.4:
+- Add rounded corners
+- Use EROFS for vendor partition
+
+20251228-12.4:
+- Add SuSFS v1.5.5
+
+20251209-12.4:
+- Update to crDroid 12.4
+
+20251206-12.3:
+- Add OSS audio HAL builds (judyln)
+
+20251204-12.3:
+- Fix in-call audio does not route to wired headphones
+
+20251201-12.3:
+- Fix gesture settings crash
+
+20251128-12.3:
+- Fix speaker output issue (judyln)
+- Add OTA support (judyln)
+
+20251124-12.3:
+- Update to Android 16 qpr0
+- Fix dac custom filter shape bitmasking, which causes shapes 0-3 (Linear Phase and Minimum Phase) being incorrectly remapped to shapes 4-7 (Apodizing, Hybrid, and Brickwall)
+- Restore Apodizing fast roll-off type 2 filter
+
+20251107-11.10: 
+- Fix dac custom filter coefficients reset on audio resume
+- Fix FM audio issue (judyln)
+
+20251011-11.10: 
+- Add KernelSU-Next v1.1.1
+- Reduce the width of the notch
+
+20250904-11.8:
+- Use prebuilt audio HAL (judyln)
+- Remove data partition force encryption

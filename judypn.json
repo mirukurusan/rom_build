@@ -1,0 +1,30 @@
+{
+    "response": [
+        {
+            "maintainer": "mirukurusan",
+            "oem": "LGE",
+            "device": "LG V40 ThinQ",
+            "filename": "crDroidAndroid-16.0-20260924-judypn-v12.12.zip",
+            "download": "https://github.com/mirukurusan/rom_build/releases/download/crDroidAndroid-16.0-20260924-v12.12/crDroidAndroid-16.0-20260924-judypn-v12.12.zip",
+            "timestamp": 1790217898,
+            "md5": "dca4b03bcd61496110132eea45ba65a7",
+            "sha256": "8482eeabe20d6e7381c46b3403d7690de8bd9428b3eaae9c607ccd7462b5b121",
+            "size": 1306925989,
+            "version": "12.12",
+            "os_patch_level": "2026-09-01",
+            "os_sdk_level": 36,
+            "buildtype": "Monthly",
+            "forum": "",
+            "gapps": "https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-16/05-Feb-2026/NikGapps-crdroid-official-arm64-16-20260205-signed.zip/download",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "",
+            "paypal": "",
+            "telegram": "https://t.me/LGG7V40Customs",
+            "dt": "",
+            "common-dt": "https://github.com/LineageOS/android_device_lge_sdm845-common",
+            "kernel": "https://github.com/mirukurusan/android_kernel_lge_sdm845"
+        }
+    ]
+}

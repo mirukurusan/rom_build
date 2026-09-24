@@ -1,0 +1,30 @@
+{
+    "response": [
+        {
+            "maintainer": "mirukurusan",
+            "oem": "LGE",
+            "device": "LG V35 ThinQ",
+            "filename": "crDroidAndroid-16.0-20260924-judyp-v12.12.zip",
+            "download": "https://github.com/mirukurusan/rom_build/releases/download/crDroidAndroid-16.0-20260924-v12.12/crDroidAndroid-16.0-20260924-judyp-v12.12.zip",
+            "timestamp": 1790219232,
+            "md5": "d3d81e388e1364889ff6415e502d3cfd",
+            "sha256": "16f0e8642100267c68f4a04416aae6b1f44c088f6b44e982e3cd98797e82e7f9",
+            "size": 1258844466,
+            "version": "12.12",
+            "os_patch_level": "2026-09-01",
+            "os_sdk_level": 36,
+            "buildtype": "Monthly",
+            "forum": "",
+            "gapps": "https://sourceforge.net/projects/nikgapps/files/Elite-Releases/crdroid-official/Android-16/05-Feb-2026/NikGapps-crdroid-official-arm64-16-20260205-signed.zip/download",
+            "firmware": "",
+            "modem": "",
+            "bootloader": "",
+            "recovery": "",
+            "paypal": "",
+            "telegram": "https://t.me/LGG7V40Customs",
+            "dt": "",
+            "common-dt": "https://github.com/LineageOS/android_device_lge_sdm845-common",
+            "kernel": "https://github.com/mirukurusan/android_kernel_lge_sdm845"
+        }
+    ]
+}

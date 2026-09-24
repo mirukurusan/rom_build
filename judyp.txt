@@ -2,6 +2,7 @@
 - Fix no audio from the earpiece during phone calls (judyln)
 - Fix FM radio not playing until the mute button is toggled (judyln)
 - Fix FM radio white noise and poor reception (judyln)
+- Remove the oss audio HAL build; judyln now ships only the prebuilt audio HAL build
 - Fix OTA support (judyln)
 - Add OTA support (judyp, judypn)
 

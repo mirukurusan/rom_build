@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project name="LineageOS/android_device_lge_judyln" path="device/lge/judyln" remote="github" revision="lineage-22.2"/>
+  <project name="mirukurusan/android_device_lge_judyln-common" path="device/lge/judyln-common" remote="github" revision="lineage-23.2-prebuilt-audio" />
+  <project name="mirukurusan/android_device_lge_sdm845-common" path="device/lge/sdm845-common" remote="github" revision="lineage-23.2" />
+  <project name="mirukurusan/android_hardware_lge" path="hardware/lge" remote="github" revision="lineage-23.0-mod" />
+  <project name="LineageOS/android_device_lge_judypn" path="device/lge/judypn" remote="github" revision="lineage-22.2"/>
+  <project name="LineageOS/android_device_lge_judyp" path="device/lge/judyp" remote="github" revision="lineage-22.2"/>
+
+  <project name="mirukurusan/android_kernel_lge_sdm845" path="kernel/lge/sdm845" remote="github" revision="lineage-23.2" />
+
+  <project name="TheMuppets/proprietary_vendor_lge_judyln" path="vendor/lge/judyln" remote="github" revision="lineage-22.2" clone-depth="1" />
+  <project name="mirukurusan/proprietary_vendor_lge_judyln-common" path="vendor/lge/judyln-common" remote="github" revision="lineage-23.0-prebuilt-audio" />
+  <project name="TheMuppets/proprietary_vendor_lge_sdm845-common" path="vendor/lge/sdm845-common" remote="github" revision="lineage-22.2" clone-depth="1" />  
+  <project name="TheMuppets/proprietary_vendor_lge_judypn" path="vendor/lge/judypn" remote="github" revision="lineage-22.2" clone-depth="1" />
+  <project name="TheMuppets/proprietary_vendor_lge_judyp" path="vendor/lge/judyp" remote="github" revision="lineage-22.2" clone-depth="1" />
+
+</manifest>

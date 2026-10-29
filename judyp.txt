@@ -1,3 +1,21 @@
+20261029-12.13
+1. Fixed VoLTE calling
+   - **Note for dirty flash:** If you are upgrading from a previous build without wiping data, please delete all files starting with `carrierconfig` in `/data/user_de/0/com.android.phone/files/` and reboot to ensure VoLTE works properly.
+2. Fixed an issue where manually searching for carriers in Settings failed immediately with "Couldn't find networks"
+3. LG G7 ThinQ (judyln): Optimized the top screen rounded corners when the notch (display cutout) is hidden
+4. LG V35 ThinQ (judyp): Properly aligned status bar height and rounded corners
+5. LG V40 ThinQ (judypn): Added support for hiding the display notch in developer options and configured proper screen rounded corners
+
+20261020-12.13
+1. Use V50 audio HAL from Emanual's tree
+2. Bit-perfect Hi-Res audio passthrough & 44.1 kHz family resampling fix 
+   - Fixed an issue where the 44.1 kHz audio family was forcibly resampled to 48 kHz family by the HAL layer, even when AudioFlinger reported DIRECT output.
+   - Note: Due to SDM845 LPASS hardware clock generator limitations, 352.8 kHz audio is downsampled using an exact 2:1 integer decimation to 176.4 kHz to prevent non-integer SRC harmonic distortion.
+   - Exposed kernel sysfs nodes (/sys/kernel/es9218_dac/sample_rate and /sys/kernel/es9218_dac/bit_width) to inspect the active DAC hardware sample rate and bit depth in real time.
+3. Excluded standard 48 kHz 16-bit PCM streams from forced DIRECT output routing
+4. Fixed an issue in the stock kernel driver where Apodizing fast roll-off filters (types 1 and 2) were hijacked and redirected to Minimum phase fast roll-off
+5. Fixed artificial volume attenuation in stock kernel driver (-1 dB on Linear phase slow roll-off and -2 dB on Linear phase fast roll-off)
+
 20261010-12.12
 1. Integrated Dolby Atmos support
 2. Enable Direct Audio Passthrough Mode (DIRECT Output)

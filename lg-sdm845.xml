@@ -14,7 +14,7 @@
   <project name="mirukurusan/proprietary_vendor_lge_judyln-common" path="vendor/lge/judyln-common" remote="github" revision="lineage-23.2" />
   <project name="mirukurusan/proprietary_vendor_lge_sdm845-common" path="vendor/lge/sdm845-common" remote="github" revision="lineage-23.2" clone-depth="1" />  
   <project name="mirukurusan/proprietary_vendor_lge_judypn" path="vendor/lge/judypn" remote="github" revision="lineage-23.2" clone-depth="1" />
-  <project name="mirukurusan/proprietary_vendor_lge_judyp" path="vendor/lge/judyp" remote="github" revision="lineage-23.2" clone-depth="1" />
+  <project name="TheMuppets/proprietary_vendor_lge_judyp" path="vendor/lge/judyp" remote="github" revision="lineage-22.2" clone-depth="1" />
 
   <project path="hardware/dolby" remote="github" name="crdroidandroid/android_hardware_dolby" revision="16.0" />
   
